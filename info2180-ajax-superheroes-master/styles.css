@@ -1,0 +1,41 @@
+#searchfield {
+    width: 50%;
+    height: 50%;
+    font-size: 17px;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    padding: 5px 12px;
+   
+}
+
+/* input {
+    border: white;
+} */
+
+.form-container{
+    text-align: center;    
+}
+
+h1 {
+    text-align: center;
+    background-color: #89CFF0;
+    color: white;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+#Button1 {
+    font-size: 17px;
+    border-radius: 5px;
+    background-color:#89CFF0;
+    color: white;
+    padding: 6px 12px;
+    border-color: white;
+}

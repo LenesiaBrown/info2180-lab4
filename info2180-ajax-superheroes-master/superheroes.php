@@ -70,3 +70,7 @@ $superheroes = [
   <li><?= $superhero['alias']; ?></li>
 <?php endforeach; ?>
 </ul>
+
+
+<!-- <script type="text/javascript">var jArray = ;</script>
+<script type="text/javascript" src="app.js"></script> -->
