@@ -20,7 +20,7 @@ window.onload = function(){
     //     });
 
 
-
+    let searchwords = [];
     let loadbtn = document.querySelector("#Button1");
 
     loadbtn.addEventListener('click', function(el){
@@ -37,12 +37,22 @@ window.onload = function(){
             .then(data => {
                 let r = document.querySelector("#result");
                 r.innerHTML = data;
-                console.log(data);
+                // console.log(data);
             })
             .catch(error => console.log("There was an error: " + error));
 
         
     });
+
+    let searchbar = document.getElementById("searchfield");
+    searchbar.addEventListener("keyup", e => {
+        const searches = e.target.value;
+        console.log(searches);
+    });
+
+    const filteredsearch = searchwords.filter(search1 => {
+        return (search1.alias.includes(searches))
+    })
 
     
     
