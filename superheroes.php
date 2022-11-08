@@ -1,4 +1,4 @@
-<?php
+<?php header("Access-Control-Allow-Origin: *");
 
 $superheroes = [
   [
@@ -72,5 +72,7 @@ $superheroes = [
 </ul>
 
 
-<!-- <script type="text/javascript">var jArray = ;</script>
-<script type="text/javascript" src="app.js"></script> -->
+
+
+
+
