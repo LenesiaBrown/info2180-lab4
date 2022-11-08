@@ -71,7 +71,9 @@ $superheroes = [
 <?php endforeach; ?>
 </ul>
 
-
+<?php
+echo json_encode($superheroes);
+?>
 
 
 
